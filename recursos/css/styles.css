@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.text-gray-900 {
+    color: #1a202c;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+.space-x-4>*+* {
+    margin-left: 1rem;
+}
+
+.md\:flex {
+    display: flex;
+}
+
+.md\:hidden {
+    display: none;
+}
+
+.hover\:text-gray-700:hover {
+    color: #4a5568;
+}
+
+.login-button,
+.get-started-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+}
+
+.login-button {
+    background-color: transparent;
+    color: #1a202c;
+    border: 1px solid transparent;
+}
+
+.login-button:hover {
+    background-color: #e2e8f0;
+    color: #1a202c;
+}
+
+.get-started-button {
+    background-color: #3182ce;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.get-started-button:hover {
+    background-color: #2b6cb0;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+.max-w-2xl {
+    max-width: 42rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.aspect-ratio {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .md\:hidden {
+        display: none;
+    }
+    .md\:flex {
+        display: flex;
+    }
+}
