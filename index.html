@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clearbit</title>
+    <title>Organización Empresarial</title>
     <link rel="stylesheet" href="recursos/css/styles.css">
 </head>
 
 <body>
     <div class="bg-white text-gray-900">
         <nav class="flex items-center justify-between p-6">
-
+            <span class="text-xl font-bold">Organización Empresarial</span>
             <div class="hidden space-x-4 md:flex">
-                <a class="hover:text-gray-700" href="#" rel="ugc">Inicio</a>
-                <a class="hover:text-gray-700" href="#" rel="ugc">Servicios</a>
-                <a class="hover:text-gray-700" href="#" rel="ugc">Recursos</a>
-                <a class="hover:text-gray-700" href="#" rel="ugc">Nosotros</a>
-                <a class="hover:text-gray-700" href="#" rel="ugc">Precios</a>
+                <a class="nav-link" href="#" rel="ugc">Inicio</a>
+                <a class="nav-link" href="#" rel="ugc">Servicios</a>
+                <a class="nav-link" href="#" rel="ugc">Recursos</a>
+                <a class="nav-link" href="#" rel="ugc">Nosotros</a>
+                <a class="nav-link" href="#" rel="ugc">Precios</a>
             </div>
             <div class="space-x-4">
                 <button class="login-button">Iniciar Sesión</button>
                 <button class="get-started-button">Regístrate</button>
             </div>
         </nav>
-        <section class="flex flex-col items-center justify-center px-6 py-16 text-center">
-            <img src="recursos/img/logo2.png" alt="Building illustration" class="mb-8" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;">
-            <h1 class="text-4xl font-bold mb-4">Conoce a tus empleados, optimiza tu empresa</h1>
-            <p class="mb-6 max-w-2xl">Nuestro sistema de organización empresarial agrupa a los trabajadores en un solo punto, dividiéndolos por grupos y secciones privadas para mejorar la coordinación y eficiencia.</p>
-            <button class="get-started-button mb-12">Regístrate</button>
+        <section class="flex flex-col md:flex-row items-center justify-center px-6 py-16 text-center">
+            <img src="recursos/img/logo2.png" alt="Ilustración del edificio" class="mb-8 md:mb-0 md:mr-8 large-image" width="400" height="400">
+            <div class="text-content md:text-left md:flex-1">
+                <h1 class="text-4xl font-bold mb-4">Conoce a tus empleados, optimiza tu empresa</h1>
+                <p class="mb-6 max-w-2xl">Nuestro sistema de organización empresarial agrupa a los trabajadores en un solo punto, dividiéndolos por grupos y secciones privadas para mejorar la coordinación y eficiencia.</p>
+                <button class="get-started-button mb-12">Regístrate</button>
+                <div class="flex justify-center md:justify-start space-x-8">
+                    <img class="illuminated-image" src="recursos/img/git.png" alt="Logo 1">
+                    <img class="illuminated-image" src="recursos/img/claud.png" alt="Logo 2">
+                </div>
+            </div>
         </section>
         <section class="px-6 py-16 text-center">
             <h2 class="text-3xl font-bold mb-4">Obtén la visión completa, al instante</h2>

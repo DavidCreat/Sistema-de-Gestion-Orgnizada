@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../recursos/css/dashboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+        </svg>
+                <span>Dashboard</span>
+            </div>
+            <nav class="nav">
+                <a href="#">Chat</a>
+                <a href="#">Users</a>
+                <a href="#">Groups</a>
+            </nav>
+            <div class="actions">
+                <button>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+          </svg>
+        </button>
+                <button>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 20h.01"/>
+            <path d="M7 20v-4"/>
+            <path d="M12 20v-8"/>
+            <path d="M17 20V8"/>
+            <path d="M22 4v16"/>
+          </svg>
+        </button>
+                <div class="avatar">
+                    <img src="/placeholder.svg" alt="@shadcn" />
+                    <div class="avatar-fallback">CN</div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="chat">
+                <div class="chat-header">
+                    <h2>Real-time Chat</h2>
+                    <div class="search">
+                        <input type="text" placeholder="Search users..." />
+                        <button>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M5 12h14"/>
+                <path d="M12 5v14"/>
+              </svg>
+            </button>
+                    </div>
+                </div>
+                <div class="chat-content">
+                    <div class="message">
+                        <div class="avatar">
+                            <img src="/placeholder.svg" alt="@jaredpalmer" />
+                            <div class="avatar-fallback">JP</div>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-header">
+                                <span class="username">Jared Palmer</span>
+                                <span class="timestamp">2:39pm</span>
+                            </div>
+                            <p>Hey everyone, how's it going?</p>
+                            <div class="message-actions">
+                                <button>
+                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                  </svg>
+                </button>
+                                <button>
+                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+                  </svg>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat the above block for more chat messages -->
+                </div>
+                <div class="chat-footer">
+                    <form class="message-form">
+                        <input type="text" placeholder="Type your message..." />
+                        <button>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="m22 2-7 20-4-9-9-4Z"/>
+                <path d="M22 2 11 13"/>
+              </svg>
+            </button>
+                    </form>
+                </div>
+            </section>
+            <section class="active-users">
+                <div class="section-header">
+                    <h2>Active Users</h2>
+                    <button>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M5 12h14"/>
+              <path d="M12 5v14"/>
+            </svg>
+          </button>
+                </div>
+                <div class="section-content">
+                    <div class="user">
+                        <div class="avatar">
+                            <img src="/placeholder.svg" alt="@jaredpalmer" />
+                            <div class="avatar-fallback">JP</div>
+                        </div>
+                        <div class="user-info">
+                            <span class="username">Jared Palmer</span>
+                            <span class="status">Online</span>
+                        </div>
+                    </div>
+                    <!-- Repeat the above block for more active users -->
+                </div>
+            </section>
+            <section class="groups">
+                <div class="section-header">
+                    <h2>Groups</h2>
+                    <button>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M5 12h14"/>
+              <path d="M12 5v14"/>
+            </svg>
+          </button>
+                </div>
+                <div class="section-content">
+                    <div class="group">
+                        <div class="avatar">
+                            <img src="/placeholder.svg" alt="Group 1" />
+                            <div class="avatar-fallback">G1</div>
+                        </div>
+                        <div class="group-info">
+                            <span class="groupname">Group 1</span>
+                            <span class="members">10 Members</span>
+                        </div>
+                    </div>
+                    <!-- Repeat the above block for more groups -->
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

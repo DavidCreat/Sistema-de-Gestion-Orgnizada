@@ -2,16 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #c8bef3;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #000000, #c8bef3), repeating-radial-gradient(circle at center center, #000000, #000000, 14px, transparent 28px, transparent 14px);
+    background-blend-mode: multiply;
 }
 
 .bg-white {
-    background-color: #fff;
+    background-color: #111111;
+    min-height: 100vh;
 }
 
 .text-gray-900 {
-    color: #1a202c;
+    color: #ffffff;
 }
 
 .flex {
@@ -72,8 +75,13 @@ body {
     display: none;
 }
 
-.hover\:text-gray-700:hover {
-    color: #4a5568;
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffffff;
 }
 
 .login-button,
@@ -92,23 +100,23 @@ body {
 
 .login-button {
     background-color: transparent;
-    color: #1a202c;
+    color: #ffffff;
     border: 1px solid transparent;
 }
 
 .login-button:hover {
-    background-color: #e2e8f0;
-    color: #1a202c;
+    background-color: #ed9af1;
+    color: #ffffff;
 }
 
 .get-started-button {
-    background-color: #3182ce;
+    background-color: #c8bef3;
     color: #fff;
     border: 1px solid transparent;
 }
 
 .get-started-button:hover {
-    background-color: #2b6cb0;
+    background-color: #ed9af1;
 }
 
 .mb-4 {
@@ -148,6 +156,35 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.large-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+.md\:text-left {
+    text-align: left;
+}
+
+.md\:flex-1 {
+    flex: 1;
+}
+
+.md\:mr-8 {
+    margin-right: 2rem;
+}
+
+.illuminated-image {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    width: 80px;
+    height: auto;
+    margin: 0 1.5rem;
 }
 
 @media (min-width: 768px) {
