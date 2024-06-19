@@ -1,0 +1,19 @@
+{
+    "name": "alvar/sgov2",
+    "description": "Chat con WebSockets usando PHP y Ratchet",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alvar\\Sgov2\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "DavidCreat"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "tecnickcom/tcpdf": "^6.3"
+    }
+}
